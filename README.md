@@ -28,6 +28,7 @@ The images referenced in this section can be found in "images.pdf" (note: github
 - I have gained an in depth knowledge of how shift registers and LED matrices work, and have also enjoyed the problem solving of trying to find the cleanest way to wire the components.
 
 ## Current working state explanation
+The v3 files are in the same directory as README.txt .
 The datasheet for the shift register can be found [here](https://www.ti.com/lit/ds/scls041i/scls041i.pdf).
 
 **LED Matrix + shift register**
@@ -42,6 +43,4 @@ The datasheet for the shift register can be found [here](https://www.ti.com/lit/
 - The longer the snake, the faster it moves ( creates increasing difficulty )
 - The food pixel flashes at twice the movement speed so it is always distinguishable
 - The player dies if they move off the screen or into their own body
-- After death, the score is shown
-
-The v3 files are in this directory.
+- After death, the score is shown - the reset button on the arduino can be pressed to play again
