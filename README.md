@@ -5,7 +5,7 @@
 This was my Arkwright Engineering Scholarship project.
 
 ## Project Description
-The images referenced in this section can be found in "images.pdf" (note: github doesn't like displaying pdfs properly so you should download it then view).
+The images referenced in this section can be found in "images.pdf". (Note: Github doesn't like displaying PDFs so it should be downloaded to view)
 
 **Goal**
 - I aimed to create the game "snake" playable on a breadboard, displayed on an LED matrix and using an arduino as a microcontroller. The project was broken into three stages - getting the LED matrix to work (v1), final wiring (v2) and completed (v3).
