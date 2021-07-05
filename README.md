@@ -6,12 +6,14 @@ This was my Arkwright Engineering Scholarship project. Images are in the images/
 ## Project Description
 
 **Goal**
-
-I aimed to create the game "snake" playable on a breadboard, displayed on an LED matrix and using an arduino as a microcontroller. The project was broken into three stages - getting the LED matrix to work (v1), final wiring (v2) and completed (v3).
+- I aimed to create the game "snake" playable on a breadboard, displayed on an LED matrix and using an arduino as a microcontroller. The project was broken into three stages - getting the LED matrix to work (v1), final wiring (v2) and completed (v3).
 
 **Development process**
-
-The v1 wiring was clumsy as can be seen in Image 3 and the main goal was to get the LED matrix to display a smiling face. The .ino file for v1 can be seen in Image 2 - the code is inefficient however this was refactored in Image 7. Then in v2 the wiring was significantly cleaned up (see Images 4, 5 and 8), and in v3 the game itself was implemented in code (the matrix code was also put into an external class (see Image 6) to make the code more readable, and the wires were cut to the right length).I had not used shift registers and LED matrices before so had to research the respective datasheets for the specific parts I had and learn how they worked in depth.Two shift registers were daisy-chained in order to reduce the number of I/O pins needed on the arduino - the shift registers were initially separate but while reading the datasheet I discovered that they could be treated as a single component by feeding the output of one into the other, saving a further 3 pins.
+- The v1 wiring was clumsy as can be seen in Image 3 and the main goal was to get the LED matrix to display a smiling face. The .ino file for v1 can be seen in Image 2 - the code is inefficient however this was refactored in Image 7.
+- Then in v2 the wiring was significantly cleaned up (see Images 4, 5 and 8), and in v3 the game itself was implemented in code.
+- In v3 the matrix code was put into an external class (see Image 6) to make the code more readable, and the wires were cut to the right length.
+- I had not used shift registers and LED matrices before so had to research the respective datasheets for the specific parts I had and learn how they worked in depth.
+- Two shift registers were daisy-chained in order to reduce the number of I/O pins needed on the arduino - the shift registers were initially separate but while reading the datasheet I discovered that they could be treated as a single component by feeding the output of one into the other, saving a further 3 pins.
 
 **Successes and failures**
 - The original goal of the project was achieved fully.
