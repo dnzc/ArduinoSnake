@@ -4,43 +4,18 @@
 LED_matrix screen(13, 12, 11);
 
 // left, down, right, up
-int button_pins[4] = {
-    A2,
-    A3,
-    A4,
-    A5
-};
+int button_pins[4] = { A2, A3, A4, A5 };
 // buttons are pulled up so 0 = pressed, 1 = not pressed
-int button_states[4] = {
-    1,
-    1,
-    1,
-    1
-};
+int button_states[4] = { 1, 1, 1, 1 };
 
 // 0 left, 1 down, 2 right, 3 up, 4 static
 int dir = 4;
 // dx[dir] and dy[dir] are x,y changes
-int dx[5] = {
-    -1,
-    0,
-    1,
-    0,
-    0
-};
-int dy[5] = {
-    0,
-    1,
-    0,
-    -1,
-    0
-};
+int dx[5] = { -1, 0, 1, 0, 0 };
+int dy[5] = { 0, 1, 0, -1, 0 };
 
 // x, y
-int food_pos[2] = {
-    5,
-    5
-};
+int food_pos[2] = { 5, 5 }'
 
 // stores coords (x,y) as y*8+x
 int snake[64];
