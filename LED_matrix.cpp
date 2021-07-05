@@ -38,7 +38,7 @@ void LED_matrix::Draw() {
         // persistence of vision
         delay(1);
 
-        // deativate row
+        // deactivate row
         bitClear(reg_data[row_mappings[y] > 7], row_mappings[y] % 8);
 
         // deactivate columns
