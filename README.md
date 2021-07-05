@@ -28,7 +28,10 @@ The images referenced in this section can be found in "images.pdf" (note: github
 - I have gained an in depth knowledge of how shift registers and LED matrices work, and have also enjoyed the problem solving of trying to find the cleanest way to wire the components.
 
 ## Current working state explanation
-The v3 files are in the same directory as README.txt .
+The completed v3 files can be found in the v3/ directory.
+
+More images of the wiring and videos of the project working can be found in the visuals/ directory.
+
 The datasheet for the shift register can be found [here](https://www.ti.com/lit/ds/scls041i/scls041i.pdf).
 
 **LED Matrix + shift register**
