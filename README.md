@@ -1,9 +1,11 @@
 
+
 # ArduinoSnake
 
-This was my Arkwright Engineering Scholarship project. Images are in the images/ directory. The completed project files are in this directory.
+This was my Arkwright Engineering Scholarship project.
 
 ## Project Description
+The images referenced in this section can be found in "images.pdf".
 
 **Goal**
 - I aimed to create the game "snake" playable on a breadboard, displayed on an LED matrix and using an arduino as a microcontroller. The project was broken into three stages - getting the LED matrix to work (v1), final wiring (v2) and completed (v3).
@@ -40,3 +42,5 @@ This was my Arkwright Engineering Scholarship project. Images are in the images/
 - The food pixel flashes at twice the movement speed so it is always distinguishable
 - The player dies if they move off the screen or into their own body
 - After death, the score is shown
+
+The v3 files are in this directory.
