@@ -28,6 +28,7 @@ The images referenced in this section can be found in "images.pdf" (note: github
 - I have gained an in depth knowledge of how shift registers and LED matrices work, and have also enjoyed the problem solving of trying to find the cleanest way to wire the components.
 
 ## Current working state explanation
+The datasheet for the shift register can be found [here](https://www.ti.com/lit/ds/scls041i/scls041i.pdf).
 
 **LED Matrix + shift register**
 - Each frame, the pins of the matrix which need to be turned on/off are encoded in the bits of a 16-bit integer​
