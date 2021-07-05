@@ -15,7 +15,7 @@ int dx[5] = { -1, 0, 1, 0, 0 };
 int dy[5] = { 0, 1, 0, -1, 0 };
 
 // x, y
-int food_pos[2] = { 5, 5 }'
+int food_pos[2] = { 5, 5 };
 
 // stores coords (x,y) as y*8+x
 int snake[64];
